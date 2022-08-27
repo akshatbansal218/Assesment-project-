@@ -1,39 +1,39 @@
 # JAVA-MAVEN SERVER LOG PROJECT
-Here is the project assement that is created in java8 with maven.
-this project gives out 2 tables :-
+Please find below the project assessment details created in java 8 with maven.
+This project gives out 2 tables:-
 
 #### 1 server
 #### 2 final
 
 
 # WORKING
-the project could be found at Assesment-project-/akshat/src/main/java/assessment/
+The project could be found at Assessment-project-/akshat/src/main/java/assessment/
 ##### 1 Establish connection with database.
-##### 2 Check if database table with same name already present.
-##### 3 create database server and final
-##### 4 insert values in server table
-##### 5 check for completed logs and the time taken and flag any that takes more than 4ms.
+##### 2 Check if the database table with the same name already present.
+##### 3 Create database server and final
+##### 4 Insert values in server table
+##### 5 Checks for completed logs and the time is taken and flag any that takes more than 4ms.
 ##### 6 Insert values in table final
 
 # REQUIREMENTS
 ####1 JDK and java.
-####2 provide value to java home environment variable.
+####2 Provide value to java home environment variable.
 
 # COMMAND LINE
 ####1 cd into the project's root directory.
 ####2 run assessment.App
 
 # USAGE
-server table consists of all the values that have been given by json file, whereas the final table consists of all the log values that have been completed and an alert has been created for those with more than 4ms time takes.
+Server table consists of all the values that have been given by Json file, whereas the final table consists of all the log values that have been completed and an alert has been created for those with more than 4ms time taken.
 
 # TEST CASE
-I have added 2 files namely logfile.txt and online generated 1000 line json file namely MOCK_DATA.txt
+I have added 2 files namely logfile.txt and an online generated 1000 line json file namely MOCK_DATA.txt
 
 # UNIT TESTING
 1 block of unit testing has also been included.
 
 # Caution
-the hsql database selected here is for server based with alias = testdb.Please, make sure that **table check method and connection con method** have same server name and url as your selected database choice for smooth running of program and if there are any changes please make sure to do same in the project also.
+The hsql database selected here is for server based with alias = testdb. Please, confirm that **table check method and connection con method** have the same server name and URL as your selected database choice for smooth running of program .
 
 # Working
-added working screenshots of project for refrence 
+Added working screenshots of the project for reference that can be downloaded. 
