@@ -15,16 +15,15 @@ the project
 ##### 6 Insert values in table final
 
 # REQUIREMENTS
-######1 JDK and java.
-######2 provide value to java home environment variable.
+####1 JDK and java.
+####2 provide value to java home environment variable.
 
 # COMMAND LINE
-######1 cd into the project's root directory.
-######2 run assessment.App
+####1 cd into the project's root directory.
+####2 run assessment.App
 
 # USAGE
 server table consists of all the values that have been given by json file, whereas the final table consists of all the log values that have been completed and an alert has been created for those with more than 4ms time takes.
-
 
 # TEST CASE
 I have added 2 files namely logfile.txt and online generated 1000 line json file namely MOCK_DATA.txt
@@ -32,5 +31,8 @@ I have added 2 files namely logfile.txt and online generated 1000 line json file
 # UNIT TESTING
 1 block of unit testing has also been included.
 
+# Caution
+the hsql database selected here is for server based with alias = testdb.Please, make sure that **table check method and connection con method** have same server name and url as your selected database choice for smooth running of program and if there are any changes please make sure to do same in the project also.
+
 # Working
-added working in another file named working with screenshots of project working
+added working screenshots of project for refrence 
