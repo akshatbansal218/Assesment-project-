@@ -76,7 +76,7 @@ public final class App {
                                     if(time<0){time = -time; };
                                     // alert
                                     boolean flag = false;
-                                    if(time >=4){
+                                    if(time >4){
                                         flag = true;
                                     }
 
