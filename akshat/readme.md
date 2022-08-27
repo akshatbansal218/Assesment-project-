@@ -16,8 +16,8 @@ The project could be found at Assessment-project-/akshat/src/main/java/assessmen
 ##### 6 Insert values in table final
 
 # REQUIREMENTS
-####1 JDK and java.
-####2 Provide value to java home environment variable.
+#### 1 JDK and java.
+#### 2 Provide value to java home environment variable.
 
 # COMMAND LINE
 ###### 1 cd into the project's root directory.
