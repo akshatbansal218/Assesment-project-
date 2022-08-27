@@ -26,6 +26,15 @@ The project could be found at Assessment-project-/akshat/src/main/java/assessmen
 java -classpath lib/hsqldb.jar org.hsqldb.server.Server
 ```
 ###### 3 run assessment.App
+# view
+You can find tables at hsqldb jar file using sql statement
+```sql
+SELECT * FROM server
+```
+for server table and
+```sql
+SELECT * FROM final
+```
 
 # USAGE
 Server table consists of all the values that have been given by Json file, whereas the final table consists of all the log values that have been completed and an alert has been created for those with more than 4ms time taken.
