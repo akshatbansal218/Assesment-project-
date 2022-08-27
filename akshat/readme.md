@@ -5,8 +5,9 @@ this project gives out 2 tables :-
 #### 1 server
 #### 2 final
 
+
 # WORKING
-the project
+the project could be found at Assesment-project-/akshat/src/main/java/assessment/
 ##### 1 Establish connection with database.
 ##### 2 Check if database table with same name already present.
 ##### 3 create database server and final
