@@ -20,8 +20,12 @@ The project could be found at Assessment-project-/akshat/src/main/java/assessmen
 ####2 Provide value to java home environment variable.
 
 # COMMAND LINE
-####1 cd into the project's root directory.
-####2 run assessment.App
+###### 1 cd into the project's root directory.
+###### 2 Start server with command 
+```bash
+java -classpath lib/hsqldb.jar org.hsqldb.server.Server
+```
+###### 3 run assessment.App
 
 # USAGE
 Server table consists of all the values that have been given by Json file, whereas the final table consists of all the log values that have been completed and an alert has been created for those with more than 4ms time taken.
