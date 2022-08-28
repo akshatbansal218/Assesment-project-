@@ -43,7 +43,7 @@ Server table consists of all the values that have been given by Json file, where
 I have added 2 files namely logfile.txt and an online generated 1000 line json file namely MOCK_DATA.txt
 
 # UNIT TESTING
-1 block of unit testing has also been included.
+1 block of unit testing has also been included and could be found at Assesment-project-/akshat/src/test/java/assessment/AppTest.java
 
 # Caution
 The hsql database selected here is for server based with alias = testdb. Please, confirm that **table check method and connection con method** have the same server name and URL as your selected database choice for smooth running of program .
