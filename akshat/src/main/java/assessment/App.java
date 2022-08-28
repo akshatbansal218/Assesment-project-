@@ -147,13 +147,13 @@ public final class App {
                     rstmt = con.createStatement();
                     result = rstmt.executeUpdate("DROP TABLE server");
                 }catch (Exception e) {
-                    e.printStackTrace(System.out);
+//                     e.printStackTrace(System.out);
                 }
                 
                 System.out.println("server Already present table,.....Table dropped successfully");
              }
         } catch (Exception e) {
-            e.printStackTrace(System.out);        
+//             e.printStackTrace(System.out);        
         }
 
         try {                         
@@ -171,13 +171,14 @@ public final class App {
                     rstmt = con.createStatement();
                     result = rstmt.executeUpdate("DROP TABLE final");
                 }catch (Exception e) {
-                    e.printStackTrace(System.out);
+//                     e.printStackTrace(System.out);
                 }
                 
                 System.out.println("final Already present table,.....Table dropped successfully");
              }
         } catch (Exception e) {
-            e.printStackTrace(System.out);        }
+//             e.printStackTrace(System.out);       
+        }
     
     }
 
